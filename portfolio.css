@@ -7,9 +7,69 @@ body {
     line-height: 1.6;
 }
 header {
-    background-color: #4a4a6a;
-    color: #fff;
-    padding: 20px;
+    background-color: #0f1338;
+    
+    /*font*/
+    color: #ffffff;
+    padding: 20px 5%;
     text-align: center;
+    animation-duration: 3s;
+    animation-name: "slide-in";
+    animation-iteration-count: 3s;
+    animation-direction: alternate;
 
 }
+section {
+    padding: 80px 5%;
+    background-color: #0f1338; /* Fundo escuro para todas as seções */
+}
+.bio-card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    /*background-image: url('fundo code.jpg'); /* Adicione sua imagem aqui */
+    background-size: cover;
+    background-position: cover;
+    color: #ffffff; /* Texto preto para contrastar com o fundo claro da imagem */
+    padding: 100px 5%;
+    
+}
+.bio-card p {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    text-align: left; 
+    background-size: cover;
+    background-position: cover;
+    color: #ffffff; /* Texto preto para contrastar com o fundo claro da imagem */
+    padding: 10px 850px 10px 10px;
+    
+}
+.bio-card img{
+    height: 450px;
+    width:auto;
+    
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f1338;
+    border-top: 1px solid #333;
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+
